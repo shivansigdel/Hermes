@@ -1,0 +1,8 @@
+{
+  "proxy": "http://localhost:5001",
+  "dependencies": {
+    "joi": "^17.13.3",
+    "jwt-decode": "^4.0.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}

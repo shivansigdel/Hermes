@@ -1,0 +1,155 @@
+/* Account Page Styles */
+
+.account-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .account-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .account-header h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .back-button {
+    background-color: #ff8c00;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .back-button:hover {
+    background-color: #e07b00;
+  }
+  
+  /* Card Effect */
+  .account-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .account-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .profile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-picture-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #f2f2f2;
+  }
+  
+  .placeholder-picture {
+    width: 150px;
+    height: 150px;
+    background-color: #ff8c00;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 4em;
+    color: #fff;
+  }
+  
+  .profile-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .profile-info p {
+    margin: 5px 0 0 0;
+    color: #666;
+  }
+  
+  .upload-section {
+    text-align: center;
+  }
+  
+  .upload-section h3 {
+    margin-bottom: 15px;
+  }
+  
+  .upload-section input[type="file"] {
+    display: block;
+    margin: 0 auto 15px auto;
+  }
+  
+  .upload-section button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-section button:hover {
+    background-color: #218838;
+  }
+  
+  /* Responsive Design */
+  
+  @media (min-width: 600px) {
+    .account-container {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  
+    .profile-section {
+      flex: 1;
+      align-items: center;
+      margin-bottom: 0;
+    }
+  
+    .profile-info {
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .upload-section {
+      flex: 1;
+      text-align: center;
+      padding-left: 40px;
+      border-left: 1px solid #e0e0e0;
+    }
+  }
